@@ -1,0 +1,169 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/Git_Version_Testing"
+  },
+  "lastModifedBy": "Vishwjeet",
+  "convertScenario": true,
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.Git_Version_Testing_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    }
+  },
+  "id": "dcd9fdf0-a0c7-462b-a8db-e9f75ddd646c",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "recordingProfile": "default.prof",
+      "type": "API",
+      "assertionsV2": [],
+      "requestHandlingRules": [],
+      "isPolyglot": false,
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": "",
+                "language": "c"
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": "",
+                "language": "c"
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_index.text",
+              "label": "index",
+              "url": "https://www.google.com"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": "",
+                "language": "c"
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": "",
+                "language": "c"
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_Request_1.text",
+              "label": "Request_1",
+              "url": ""
+            }
+          ],
+          "steps": [
+            {
+              "condition": [],
+              "thinkTime": 0,
+              "stepName": "Step_1",
+              "enable": true,
+              "_originalStepName": "Step_1",
+              "label": "Go",
+              "assertions": [],
+              "type": "go",
+              "url": ""
+            }
+          ],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "01/09/2026 04:59:59",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}
