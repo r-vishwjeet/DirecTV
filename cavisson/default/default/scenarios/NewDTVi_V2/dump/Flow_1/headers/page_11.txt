@@ -1,0 +1,64 @@
+--Request 
+GET https://data.directv.com/g/collect?v=2&tid=G-LEXYQWQ1NF&gtm=45je68p1v869119018za20gzb848825936zd848825936&_p=1787819147782&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYWJhMj.dYmQxMT&ecid=1951105824&_eu=EEEAAGQ&ae=a&are=1&cid=1497575930.1787819157&ec_mode=c&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1514x872&uaa=&uab=&uafvl=&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&ur=US&sst.gpp=DBABLA~BAAAAAAAAABY.QA&sst.gpp_sid=7&sst.tft=1787819147782&sst.sp=1&sst.em_event=1&sst.lpc=46698918&sst.navt=n&sst.ude=1&sst.sw_exp=1&gaf=2&_s=35&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787819156&sct=1&seg=1&dl=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery&dr=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Faccount-info&dt=Checkout%20%7C%20DIRECTV%20via%20Internet&_tu=BA&en=form_start&gap.sstd=5&ep.querystring=&ep.authenticated_ind=unauthenticated&ep.recognized_ind=unrecognized&ep.page_service_type=stream&ep.page_language=english&ep.page_url=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fchoice-package&ep.hit_type=custom_event&ep.querystring_extension=&ep.gtm_debug=gtm.init&ep.qm_replay=https%3A%2F%2Fdtv.quantummetric.com%2F%23%2Fusers%2Fsearch%3Fqmsessioncookie%3D&ep.page=%2Fshop%2Fdtvi%2Fchoice-package&ep.hitTraceId=undefined%7Cundefined&ep.content_group=Sales&ep.MarTechHitTraceId=30833757272574-1787819149856&epn.timestamp=1787819149853&ep.content_subgroup=Other&ep.browser_user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F135.0.0.0%20Safari%2F537.36&epn.browser_user_agent_characterCount=101&ep.ccsuppress_social=false&ep.purchase_buyerIntent=&ep.event_name_ss=gtm.init&ep.event_name=configuration&ep.braze_ext_id=&ep.form_id=&ep.form_destination=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery&epn.form_length=18&ep.first_field_id=addressline1_ifnl&ep.first_field_type=text&epn.first_field_position=3&_et=21255&tfd=159235&richsstsse
+Host: data.directv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+X-Effective-Origin: https://perf1.directv.com
+X-Effective-Referer: https://perf1.directv.com/shop/dtvi/delivery
+Accept: */*
+Attribution-Reporting-Eligible: trigger;event-source
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://data.directv.com/_/service_worker/68j0/sw.js?origin=https%3A%2F%2Fperf1.directv.com
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=010332c9-7b4e-482c-b00f-6969ac954a34; CIP=66.220.31.146; x-dtv-DMA=807; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; ccsuppress_social=false; visitedPCP=true; dtvprodsession=_17878191520360.2c322d2d158a882ace8971d2713887ba_1192; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; utag_main__sn=1; utag_main_ses_id=1787819156433%3Bexp-session; utag_main__pn=1%3Bexp-session; optimizelyEndUserId=oeu1787819156621r0.223589819219281; _ga=GA1.1.1497575930.1787819157; FPID=FPID2.2.S48ibml5rGzMONecIWAzbvok1EglimXT3cUF%2Fr0tLH0%3D.1787819157; FPLC=2vdoYweMu9a3sSzal9d1jIErcP88lKNscd%2BZ1pay1TMxN7K9Dtb10bs7uKeh%2FclvnNFufT18mdnqcyFCukyxJFK%2BaV4x6lLj%2BK5HIqbTL5ufWqFUT2TAakNbc8A%2B3g%3D%3D; _bts=24047510-6b25-450a-c019-9ff2169ae617; _fbp=fb.1.1787819159766.925769347137004667.Bg; _tt_enable_cookie=1; _ttp=01M1156YGXB32MPHQJ23V3C8A0_.tt.1; utag_main__ss=0%3Bexp-session; _gcl_au=1.1.1949087988.1787819150.-.-.1787819164.567193784.1787819165.1787819164; cjConsent=MHxOfDB8Tnww; cjUser=c457118f-3c2f-42c0-b978-48ea3dbffc56; _rdt_uuid=1787819161967.f70d0ab5-d7f9-406b-88ba-c15e59892473; x-dtv-edgescape=CA:FREMONT:FREMONT; sm_uuid=1787820058859; _scid=6D0woXxWHrbx-qljPfR8cQ1C_DnL5-yJ; _scid_r=6D0woXxWHrbx-qljPfR8cQ1C_DnL5-yJ; ab.storage.deviceId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3A1e75c03e-efba-e8a5-bb70-0295392fccdb%7Ce%3Aundefined%7Cc%3A1787819166063%7Cl%3A1787819166676; ab.storage.userId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3A010332c9-7b4e-482c-b00f-6969ac954a34%7Ce%3Aundefined%7Cc%3A1787819166669%7Cl%3A1787819166677; _uetsid=f352f870a1f011f1aaed579a8a430372|ao6gbo|2|g8y|0|2430; _sctr=1%7C1787806800000; ab.storage.sessionId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3Ab46c92b7-fd24-2b23-3c84-acebff92367c%7Ce%3A1787820987836%7Cc%3A1787819166674%7Cl%3A1787819187836; currentZipcode=75001; FPGSID=1.1787819157.1787819263.G-LEXYQWQ1NF.SYJve-gUGXR1JDRc4K493A; utag_main__se=10%3Bexp-session; utag_main__st=1787821078546%3Bexp-session; _bti=%7B%22app_id%22%3A%22directv-com%22%2C%22bsin%22%3A%22dvc824lWo3eA7eusJqxZF2Q7Eaubf2F%2FQb70dezMVbXVk%2FcLhZWp6SMMMyoEuLM2ZeRV7g0%2B54%2FX%2BM9CUa295A%3D%3D%22%2C%22external_ids%22%3A%7B%22zync%22%3A%2201d794b8-1627-4828-94f4-615e6fca71c0%3A1787819278.569156%22%7D%2C%22is_identified%22%3Afalse%2C%22known_to_zeta%22%3Afalse%7D; _uetvid=f35321d0a1f011f1908721049a227cf6|15rxhi4|1787819279267|5|1|bat.bing.com/p/insights/c/r; subscriberType=Sales-MyFreeDIRECTV; ttcsid_CJ6LAJBC77U6MVP86REG=1787819162151::CWGmbaqH4HPOPYPdj4n6.1.1787819280573.1; invoca_session=%7B%22ttl%22%3A%222026-09-26T08%3A28%3A05.924Z%22%2C%22session%22%3A%7B%22invoca_id%22%3A%22i-28a2d19e-8aa2-4887-e78d-b549c474d146%22%2C%22returnVisitorFlag%22%3A%22No%22%2C%22utm_medium%22%3A%22Direct%22%7D%2C%22config%22%3A%7B%22ce%22%3Atrue%2C%22fv%22%3Afalse%2C%22rn%22%3Afalse%7D%7D; _rdt_em=:8784fbe788ada2bf79c84992be4c1a712d2b4ed6e513437c996653fcc274533f,0897302ae4654508f503aaa113f8d25a2305a87f18c43768e8c7a1b82eff2eba; _ga_LEXYQWQ1NF=GS2.1.s1787819156$o1$g1$t1787819301$j22$l0$h1951105824; ttcsid=1787819162153::ujh0WnQaGVL6sks00CI6.1.1787819280574.0::1.116440.4667::139802.12.170.726::137357.27.200
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+set-cookie: FPID=FPID2.2.S48ibml5rGzMONecIWAzbvok1EglimXT3cUF%2Fr0tLH0%3D.1787819157; Max-Age=63072000; Domain=directv.com; Path=/; Secure; HttpOnly
+cache-control: no-cache
+content-type: text/plain
+x-content-type-options: nosniff
+x-accel-buffering: no
+date: Thu, 27 Aug 2026 08:28:22 GMT
+server: Google Frontend
+via: 1.1 google
+alt-svc: h3=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/pagead/1p-user-list/10837652692/?random=1787819301533&cv=11&fst=1787817600000&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be68p1v889747108za200zb869119018zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385422&u_w=1514&u_h=872&url=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery&ref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Faccount-info&rcb=17&frm=0&tiba=Checkout%20%7C%20DIRECTV%20via%20Internet&did=dYWJhMj%2CdYmQxMT&gdid=dYWJhMj.dYmQxMT&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1949087988.1787819150&uaa=&uab=&uafvl=&uamb=0&uam=&uap=Linux&uapv=&uaw=0&gpp=DBABLA~BAAAAAAAAABY.QA&gpp_sid=7&data=event%3Dform_start&gap.fsrc=1&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3DI-xhPgFde5_lWu4eP8_yXvMVnrPCT4fbZXXoQxGNwQyAQDvzrEbAEnHcof7Q4pX1hMutt8Et0I3e1bzLC7jbF4zTGDRImEoeugeg1Y_zqRuE4rZ7kLvfMKtF5HIirrL-LyrIphm_McZVN9fMrPEH7bYGENmz6ZJqlICQ9u3uds31BOdZskZDx8DtCNhbrJM-I89eCuSUbuhzljpuHb8g6lxKHSS0mbIZOgwju6K5-WppjzklqGnZyhMVGUKQufykxoD7J103SfpfY6qhs1rQ&random=3102960694&rmt_tld=0&ipr=y
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

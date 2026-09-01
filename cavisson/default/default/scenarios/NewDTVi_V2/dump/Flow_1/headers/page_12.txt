@@ -1,0 +1,668 @@
+--Request 
+POST https://analytics.tiktok.com/api/v2/monitor
+Host: analytics.tiktok.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+ {"metric_name":"custom_info","pixel_code":"CJ6LAJBC77U6MVP86REG","platform":0,"app_name":"external","net_type":"4g","placement":"non","lib":{"lib_version":"2.2.1","ttq_name":"ttq"},"in_iframe":1,"time_to_last_start":179384,"time_to_navigation_start":202179,"latency":0,"page_url":"https://perf1.directv.com/shop/dtvi/payment","att_status":3,"pageview_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616-A3fkM.0.5","session_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616::ivtfrApbhxrx9fVYd0NZ","variation_id":"traffic_1::default","vids":"76627535","load_id":"f220795a-a1f0-11f1-825d-b83fd246744a","ad_id":"undefined","creative_id":"undefined","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36","pixel_monitor_version":"v2","custom_name":"form_funnel","custom_enum":"form_visible","partner":"Tealium","ext_json":{"performance":[],"pixel_list":"CJ6LAJBC77U6MVP86REG","pixel_api_conflict_flag":false,"message":"form_3|1.168217.4667::182313.15.602.698::165063.31.0|"}}
+--Response 
+HTTP/1.1 200
+server: nginx
+content-length: 0
+access-control-allow-headers: Authorization,*
+access-control-allow-methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS,UPDATE
+access-control-allow-origin: *
+x-tt-logid: 20260827082822C44F69B1E9A6BE272C3C
+cross-origin-resource-policy: cross-origin
+x-tt-trace-host: 019d0a6bc830c9aef4d321730b12f133562c62389013044a533c8304a58e25fa83b250391b077bf004237562aeff15bbd341b8059abcca6d663861e66da1f119fe0d0bd425d9d0bdbe99588b838a966bcc9cd685cc6ae3f73608391b4e490280471342cef1030455c74a2d95a60a6325e4
+x-tt-trace-id: 00-260827082822C44F69B1E9A6BE272C3C-73DD9497CDBA2B78-00
+x-origin-response-time: 14,23.200.94.225
+x-akamai-request-id: 8cf69678.429fe01
+expires: Thu, 27 Aug 2026 08:28:22 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Thu, 27 Aug 2026 08:28:22 GMT
+x-cache: TCP_MISS from a23-67-79-214.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-cache-remote: TCP_MISS from a23-200-94-225.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+server-timing: cdn-cache; desc=MISS, edge; dur=71, origin; dur=14
+server-timing: inner; dur=10
+x-parent-response-time: 81,23.67.79.214
+----
+--Request 
+POST https://ad.doubleclick.net/activity;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: ad.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+follow-only-when-prerender-shown: 1
+location: https://ad.doubleclick.net/activity;dc_pre=CJ3st_OxwJYDFbDtSQUdxGkIxg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://12064419.fls.doubleclick.net/activityi;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: 12064419.fls.doubleclick.net
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+follow-only-when-prerender-shown: 1
+strict-transport-security: max-age=21600
+location: https://12064419.fls.doubleclick.net/activityi;dc_pre=CKTLv_OxwJYDFbsACAId_HkmJw;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+POST https://ad.doubleclick.net/activity;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: ad.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+follow-only-when-prerender-shown: 1
+location: https://ad.doubleclick.net/activity;dc_pre=CMSnuvOxwJYDFfrtSQUdifcLig;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://ad.doubleclick.net/activity;dc_pre=CJ3st_OxwJYDFbDtSQUdxGkIxg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: ad.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+location: https://www.google.com/gmp/conversion/_dc_unique_id=17674668806133213310;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERl_bWWt5L3bVDTtPAJ0f71rhvf3AtdbO54tV5;_dc_time=1787819302;dc_pre=CJ3st_OxwJYDFbDtSQUdxGkIxg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Thu, 27-Aug-2026 08:43:22 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://12064419.fls.doubleclick.net/activityi;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: 12064419.fls.doubleclick.net
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+follow-only-when-prerender-shown: 1
+strict-transport-security: max-age=21600
+location: https://12064419.fls.doubleclick.net/activityi;dc_pre=CILQv_OxwJYDFQU-CAIdr5w7Rg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://ad.doubleclick.net/activity;dc_pre=CMSnuvOxwJYDFfrtSQUdifcLig;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: ad.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+location: https://www.google.com/gmp/conversion/_dc_unique_id=16101819619819162961;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERl0sXxS9sAB9Way_LMV5p_Zcs-IB4NybLb0tJ;_dc_time=1787819302;dc_pre=CMSnuvOxwJYDFfrtSQUdifcLig;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Thu, 27-Aug-2026 08:43:22 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/gmp/conversion/_dc_unique_id=17674668806133213310;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERl_bWWt5L3bVDTtPAJ0f71rhvf3AtdbO54tV5;_dc_time=1787819302;dc_pre=CJ3st_OxwJYDFbDtSQUdxGkIxg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/gmp/conversion/_dc_unique_id=16101819619819162961;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERl0sXxS9sAB9Way_LMV5p_Zcs-IB4NybLb0tJ;_dc_time=1787819302;dc_pre=CMSnuvOxwJYDFfrtSQUdifcLig;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/gmp/conversion/_dc_unique_id=5318353233828092115;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERlyrUAJ95dpVusWsWUI5K_cEOwEVGqb641LeN;_dc_time=1787819301;dc_pre=CP7tnPOxwJYDFUrRSQAdX54dxA;src=12050451;type=form_0;cat=form_0;rcb=19;ord=6919432810706;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9172137160z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422;epver=2;em=tv.1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://12050451.fls.doubleclick.net/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/gmp/conversion/_dc_unique_id=7204556476556825102;_dc_ptd=ChAI8MC_1AYQ446376-kjtQQEh8ATnERlxwzpa8BQiw4uiBiSAmHmtTM80k-aMkB3v8Z;_dc_time=1787819301;dc_pre=CI-OofOxwJYDFf89CAIdKEwZaQ;src=12050451;type=form_0;cat=form_0;rcb=19;ord=4768440078205;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9172137160z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422;epver=2;em=tv.1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://12050451.fls.doubleclick.net/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://12064419.fls.doubleclick.net/activityi;dc_pre=CILQv_OxwJYDFQU-CAIdr5w7Rg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: 12064419.fls.doubleclick.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+expires: Thu, 27 Aug 2026 08:28:22 GMT
+cache-control: private, max-age=0
+strict-transport-security: max-age=21600
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-encoding: br
+server: cafe
+content-length: 526
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Thu, 27-Aug-2026 08:43:22 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://12064419.fls.doubleclick.net/activityi;dc_pre=CKTLv_OxwJYDFbsACAId_HkmJw;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=1949087988.1787819150;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.1;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery?
+Host: 12064419.fls.doubleclick.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+expires: Thu, 27 Aug 2026 08:28:22 GMT
+cache-control: private, max-age=0
+strict-transport-security: max-age=21600
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-encoding: br
+server: cafe
+content-length: 524
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Thu, 27-Aug-2026 08:43:22 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://adservice.google.com/ddm/fls/z/dc_pre=CILQv_OxwJYDFQU-CAIdr5w7Rg;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=7330906274228;npa=0;auiddc=*;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.*;dc_random=1787819302_XrBOa83Ki-Ru8rJBK7rrJiSkgJVgi577TA;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery
+Host: adservice.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://12064419.fls.doubleclick.net/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://adservice.google.com/ddm/fls/z/dc_pre=CKTLv_OxwJYDFbsACAId_HkmJw;src=12064419;type=forbu0;cat=forbu00o;rcb=11;ord=9357915365304;npa=0;auiddc=*;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;gpp=DBABLA~BAAAAAAAAABY.QA;gpp_sid=7;user_data_mode=c;_tu=KFA;gtm=45fe68p1v9182367534z8848825936za20gzb848825936zd848825936xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422~120763598;epver=2;em=tv.*;dc_random=1787819302_5HIwpDgmGuetOkt6jx0lFIr5N0t0WN_95A;_dc_test=1;~oref=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fdelivery
+Host: adservice.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://12064419.fls.doubleclick.net/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Thu, 27 Aug 2026 08:28:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+POST https://analytics.tiktok.com/api/v2/pixel/inter
+Host: analytics.tiktok.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+ {"event_id":"","message_id":"messageId-1787819302347-4331619312803","is_onsite":false,"timestamp":"2026-08-27T08:28:22.347Z","context":{"ad":{"sdk_env":"external","jsb_status":2},"device":{"platform":"pc"},"user":{"anonymous_id":"01M1156YGXB32MPHQJ23V3C8A0_.tt.1","eb_email":"8784fbe788ada2bf79c84992be4c1a712d2b4ed6e513437c996653fcc274533f","acp":[{"type":1,"value":"8784fbe788ada2bf79c84992be4c1a712d2b4ed6e513437c996653fcc274533f","source":"aam_dl_raw_em"}]},"pixel":{"code":"CJ6LAJBC77U6MVP86REG","runtime":"1","codes":"CJ6LAJBC77U6MVP86REG"},"page":{"url":"https://perf1.directv.com/shop/dtvi/delivery","referrer":"https://perf1.directv.com/shop/dtvi/account-info","load_progress":"2"},"library":{"name":"pixel.js","version":"2.2.1"},"session_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616::ivtfrApbhxrx9fVYd0NZ","pageview_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616-A3fkM.0.4::f220795a-a1f0-11f1-825d-b83fd246744a","variation_id":"traffic_1::default","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36","index":4},"_inspection":{"identity_params":{"email_is_hashed":["empty_value"],"sha256_email":["empty_value"],"phone_is_hashed":["empty_value"],"sha256_phone":["empty_value"],"zip_code":["empty_value"]},"vids":"76627535","inter_id":"1.116440.4667::139802.12.170.726::137357.27.200"},"properties":{},"limited_data_use":true,"partner":"Tealium","signal_diagnostic_labels":{"raw_email":{"label":"missing"},"raw_auto_email":{"label":"missing"},"raw_phone":{"label":"missing"},"raw_auto_phone":{"label":"missing"},"hashed_email":{"label":"missing"},"hashed_phone":{"label":"missing"},"raw_eb_email":{"label":"valid","abnormal_types":["letter_case","domain_typo"],"suggested_values":["838641398c85051afbd6f1463194dad373e7ca5bd90ab59aaebea30a214502b4"]},"raw_eb_phone":{"label":"missing"},"hashed_eb_email":{"label":"missing"},"hashed_eb_phone":{"label":"missing"},"aam_dl_raw_em":{"label":"valid","abnormal_types":["letter_case","domain_typo"],"suggested_values":["838641398c85051afbd6f1463194dad373e7ca5bd90ab59aaebea30a214502b4"]}},"action":"Pf","auto_collected_properties":{"action_event":"twt","inter":{"ct":1,"st":1},"page_inter":{"metrics_type":"ct|st","ct":1,"st":1}}}
+--Response 
+HTTP/1.1 200
+server: nginx
+content-type: application/json; charset=utf-8
+content-length: 16
+x-tt-logid: 20260827082822AE54A814D9B032CF845D
+access-control-expose-headers: x-tt-traceflag,x-tt-logid
+x-tt-trace-host: 019d0a6bc830c9aef4d321730b12f133562c62389013044a533c8304a58e25fa83ac5542cc0e78655418eb63b2309444f108b623c8bd27746eeb8488701f39b66f453babf6c933b517f2a21726b45e7f4f9c0fa9ce5a2cc695846057d60f30615b8f13da76908c009f61f6ed36c5f46345
+x-tt-trace-id: 00-260827082822AE54A814D9B032CF845D-764074A1AA57C197-00
+x-origin-response-time: 7,23.3.12.97
+x-akamai-request-id: 13707f1e.429ffde
+expires: Thu, 27 Aug 2026 08:28:22 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Thu, 27 Aug 2026 08:28:22 GMT
+x-cache: TCP_MISS from a23-67-79-214.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-cache-remote: TCP_MISS from a23-3-12-97.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+server-timing: cdn-cache; desc=MISS, edge; dur=86, origin; dur=7
+server-timing: inner; dur=4
+x-parent-response-time: 78,23.67.79.214
+----
+--Request 
+POST https://bat.bing.com/p/insights/c/r
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: application/x-webinsights-gzip
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+ �      ��Qn�0��2����	I��xh��H�a��UӤ�eG�I�Љ�}�lY�?��c�SC��T��	��z[��w/�z���m��o�Vj6ڏcZ�i�[N�vh�qJ�pHO�Ч�8�i�t��*AkZ�V����P� ��%"�z!Z�0/Ș{���dnU�=0oo��3|��J�e�:k��B�-8�=�q�R\��������r0rc`,�n'��6�*�!t�C��Cn{�׶���<�*Q��+�����^_�\C�gq��:Ν��,���L�e�����fyh�!������(�L=S  
+--Response 
+HTTP/1.1 204
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+request-context: appId=cid-v1:a449a586-8786-487f-a449-dc1b282a2628
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 55A43004FFC74B968DEBF4DF40D276F9 Ref B: BY1AA1072315034 Ref C: 2026-08-27T08:28:22Z
+date: Thu, 27 Aug 2026 08:28:22 GMT
+----
+--Request 
+POST https://analytics.tiktok.com/api/v2/pixel/inter
+Host: analytics.tiktok.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+ {"event_id":"","message_id":"messageId-1787819312161-3409596480083","is_onsite":false,"timestamp":"2026-08-27T08:28:32.161Z","context":{"ad":{"sdk_env":"external","jsb_status":2},"device":{"platform":"pc"},"user":{"anonymous_id":"01M1156YGXB32MPHQJ23V3C8A0_.tt.1","eb_email":"8784fbe788ada2bf79c84992be4c1a712d2b4ed6e513437c996653fcc274533f","acp":[{"type":1,"value":"8784fbe788ada2bf79c84992be4c1a712d2b4ed6e513437c996653fcc274533f","source":"aam_dl_raw_em"}]},"pixel":{"code":"CJ6LAJBC77U6MVP86REG","runtime":"1","codes":"CJ6LAJBC77U6MVP86REG"},"page":{"url":"https://perf1.directv.com/shop/dtvi/delivery","referrer":"https://perf1.directv.com/shop/dtvi/account-info","load_progress":"2"},"library":{"name":"pixel.js","version":"2.2.1"},"session_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616::ivtfrApbhxrx9fVYd0NZ","pageview_id":"efaf183a-a1f0-11f1-bba5-76ad15a63616-A3fkM.0.4::f220795a-a1f0-11f1-825d-b83fd246744a","variation_id":"traffic_1::default","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36","index":4},"_inspection":{"identity_params":{"email_is_hashed":["empty_value"],"sha256_email":["empty_value"],"phone_is_hashed":["empty_value"],"sha256_phone":["empty_value"],"zip_code":["empty_value"]},"vids":"76627535","inter_id":"1.116440.4667::139802.12.170.726::149887.28.206"},"properties":{},"limited_data_use":true,"partner":"Tealium","signal_diagnostic_labels":{"raw_email":{"label":"missing"},"raw_auto_email":{"label":"missing"},"raw_phone":{"label":"missing"},"raw_auto_phone":{"label":"missing"},"hashed_email":{"label":"missing"},"hashed_phone":{"label":"missing"},"raw_eb_email":{"label":"valid","abnormal_types":["letter_case","domain_typo"],"suggested_values":["838641398c85051afbd6f1463194dad373e7ca5bd90ab59aaebea30a214502b4"]},"raw_eb_phone":{"label":"missing"},"hashed_eb_email":{"label":"missing"},"hashed_eb_phone":{"label":"missing"},"aam_dl_raw_em":{"label":"valid","abnormal_types":["letter_case","domain_typo"],"suggested_values":["838641398c85051afbd6f1463194dad373e7ca5bd90ab59aaebea30a214502b4"]}},"action":"Pf","auto_collected_properties":{"action_event":"twt","inter":{"ct":1,"st":1},"page_inter":{"metrics_type":"ct|st","ct":1,"st":1}}}
+--Response 
+HTTP/1.1 200
+server: nginx
+content-type: application/json; charset=utf-8
+content-length: 16
+x-tt-logid: 20260827082832EBDC8885587F3D46D4CE
+access-control-expose-headers: x-tt-traceflag,x-tt-logid
+x-tt-trace-host: 019d0a6bc830c9aef4d321730b12f133562c62389013044a533c8304a58e25fa83bb6fdcbf364b1b71dbf438823e17b117e8f4479f9a7679966a5b857d0347808c0e3833c158b48732494145e366d8f763ae21c5c265c610ffb56bd92238e8ae55a6c8d89613cd6abdfd83f2549502897c
+x-tt-trace-id: 00-260827082832EBDC8885587F3D46D4CE-042E859501103CA8-00
+x-origin-response-time: 7,23.48.100.37
+x-akamai-request-id: 76d1849e.42a2f40
+expires: Thu, 27 Aug 2026 08:28:32 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Thu, 27 Aug 2026 08:28:32 GMT
+x-cache: TCP_MISS from a23-67-79-214.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-cache-remote: TCP_MISS from a23-48-100-37.deploy.akamaitechnologies.com (AkamaiGHost/22.6.2-97ef0859cc144569d43c2bf1998a4b4c) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+server-timing: cdn-cache; desc=MISS, edge; dur=73, origin; dur=7
+server-timing: inner; dur=3
+x-parent-response-time: 75,23.67.79.214
+----
+--Request 
+POST https://bat.bing.com/p/insights/c/r
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: application/x-webinsights-gzip
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+ �      ��Yj�0���=��\��!���:u��Pz���P(B��,0_�Ц".R2�C�@,%:�M���۟	���q�H��yj����N�x�l���/Rڡُ�b߿��S.�-M�^��F5hK��2� ��P ��Ԩ��Ǉ�ڢ=���T�iٯ��ߦ�s����}j~��_�O�E=׽آ�Ϻ�E���4���\�R)A�Α5@fsl���!Ʌ���O���cN���u�>4$�4���:���)+L�!��� w���  
+--Response 
+HTTP/1.1 204
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+request-context: appId=cid-v1:a449a586-8786-487f-a449-dc1b282a2628
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 541419A2BBCB422C9E858FFDF470F6B6 Ref B: BY1AA1072315034 Ref C: 2026-08-27T08:28:36Z
+date: Thu, 27 Aug 2026 08:28:36 GMT
+----
+

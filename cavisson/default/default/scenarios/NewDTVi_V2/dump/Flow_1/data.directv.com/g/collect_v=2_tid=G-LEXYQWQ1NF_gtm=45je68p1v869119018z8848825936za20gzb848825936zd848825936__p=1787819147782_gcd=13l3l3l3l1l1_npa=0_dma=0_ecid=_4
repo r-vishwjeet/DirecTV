@@ -1,0 +1,12 @@
+event: message
+data: {"fetch":["https://www.google.com/measurement/conversion/?random=2101468386&fmt=8&cv=12&fst=1787819157014&tid=G-LEXYQWQ1NF&gtm=45j91e68p1v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938468~117215455~118032361~118897920~118897930~119367802~119367810~120213116~120385423&gap.sstd=5&rcb=9&dma=0&npa=0&s3p=1&gacid=1497575930.1787819157&pscdl=noapi&auid=1949087988.1787819150&uaa=&uab=&uafvl=&uamb=0&uam=&uap=Linux&uapv=&uaw=0&en=add_to_cart"]}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=dza6Vg%2FcjnVNcMJDOVBrZlmrBPEWUiLoZ7rXgeooXIv5UB5koXbeOYTysnpkvn2aYsrMpq0az6c4H3Hi1bAJ2HtfGsoPaYXRAIo%2FiUxHx0gycjXaHmnywfuS8wXcSWpHJaFakHDKozjUAbvJt38jZogN1dzFikHY4yWTQWYvKJVtNgYwJ5Re1GisYO4uwr5VPVmbCMLrgSZ1h%2BOhMJ9lYQqwHJykk8zhTMTnbb5htw%3D%3D&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["https://analytics.google.com/g/s/collect?dma=0&npa=0&gcd=13l3l3l3l1l1&gtm=45j91e68p1v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938468~117215455~117215455~118032361~118032361~118897920~118897930~119367802~119367810~120213116~120385423&_is_sw=0&_tu=BA&gap.sstd=5&_gsid=LEXYQWQ1NFSYJve-gUGXR1JDRc4K493A"],"options":{}}
+
+event: message
+data: {"response":{"status_code":200,"body":""}}
+

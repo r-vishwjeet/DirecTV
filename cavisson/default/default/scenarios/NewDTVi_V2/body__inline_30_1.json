@@ -1,0 +1,8 @@
+{"firstname":"{p_firstName}","lastname":"{p_lastName}","acceptedTimestamp":"{date}","printName":"{p_firstName} {p_lastName}","signature":"{p_firstName} {p_lastName}","uuid":"010332c9-7b4e-482c-b00f-6969ac954a34","product":"dtvi","tncDynamicMap":{"futureDate":"","deviceQuantity":1,"totalPrice":"86.98","freeTrialDuration":2,"afterFreeTrial":3,"devicePrice":10,"tncModalTFN":"800.531.5000","firstName":"{p_firstName}","lastName":"{p_lastName}","signature":"{p_firstName}","printName":"{p_firstName} {p_lastName}","packageName":"CHOICE™","packagePrice":64.99,"acceptedDate":"{date}","addonsWtOfferNameForPriceMap":"","addonsWtOfferNames":"","addonsWtoutOfferNameAtPriceMap":"","addonsWtoutOfferNames":"","addonsWtoutOfferNameForPriceMap":"","seasonalSportsAddonNameAtPriceMap":"","seasonalSportsAddonNames":"","installmentSportsAddonNameAtPriceMap":"","installmentSportsAddonNames":"","svodsNames":"","discountedSvodsNames":"","flatOffLifetimeAddonsWtOfferNames":"","flatOffLifetimeAddonsNameMap":"","flatOffLifetimeAddonsDiscountMap":"","flatOffLifetimeAddonsBaseRateMap":"","numberOfDevicesWithName":"1 Gemini Air Device(s)","isEligibleForBasepackFTLanguageTerms":true},"displayedTerms":[{"name":"packageTerms","label":"Package Terms","order":"1"},{"name":"deviceTerms","label":"Device Terms","order":"6"}],"genericTnc":"genericTnCwithDevice","generateTermsArgs":{"addons":[]}}
+
+
+
+
+
+
+

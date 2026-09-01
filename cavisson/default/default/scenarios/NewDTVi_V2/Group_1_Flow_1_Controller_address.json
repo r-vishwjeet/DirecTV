@@ -1,0 +1,12 @@
+{
+    "payload": {
+        "{validated_address}",
+            "type": "shipping",
+            "validatedIndicator": true
+        }
+    }
+}
+
+
+
+

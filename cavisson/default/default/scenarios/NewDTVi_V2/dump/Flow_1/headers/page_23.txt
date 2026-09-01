@@ -1,0 +1,33 @@
+--Request 
+GET https://www.google.com/recaptcha/api2/payload?p=06AFcWeA6TrrO2fGoJqyTN56i5R13ins-QM8aiVvjqXhq7Ajr2_jZQijBzUvVGh7eRPOe4ATSmus6H3NED9oyk6OnRWongv7quP3w03RdmrszPZQuuDJPIc9GWt0AJNTg1M0FvldKP3K8gKlSuwnwXQg8409JX1Nyqv6zrXqyARmPM5WmP44Wj-msDWJebDZUmPw1iHjeOHFXX&k=6LeBmJslAAAAAP9oPyWhtX6iEp1FFvZADh4bujKW&id=9d958dd07781dfa2
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=xg_pWYS8-HRESiV6Rdg4aY_R&k=6LeBmJslAAAAAP9oPyWhtX6iEp1FFvZADh4bujKW&bft=0dAFcWeA5XjdxfFdK95R-qowDqCP78raTfoIr_nzUDSSpHyw4xk4nm8cjRk4rbeCYDzzbKKRV9nvfbEQTG13u1kEFRzYJ_7tapRQ
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: True
+----
+--Response 
+HTTP/1.1 200
+content-type: image/jpeg
+expires: Thu, 27 Aug 2026 08:30:36 GMT
+date: Thu, 27 Aug 2026 08:30:36 GMT
+cache-control: private, max-age=30
+cross-origin-opener-policy-report-only: same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"
+cross-origin-resource-policy: same-site
+report-to: {\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+
